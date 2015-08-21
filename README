@@ -1,0 +1,6 @@
+Here is just openjdk8 already compiled with this configuration and make command : 
+bash ./configure --with-jvm-variants=zero --enable-openjdk-only --with-freetype-include=/usr/include/freetype2 --with-freetype-lib=/usr/lib/x86_64-linux-gnu --with-extra-cflags=-Wno-error --with-extra-cxxflags=-Wno-error && \
+make images
+
+This repository is useful for an other repository : 
+https://github.com/florian-gauvin/Small-Dockerfile-Felix
